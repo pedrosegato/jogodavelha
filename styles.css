@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 7.6vh;
+}
+
+#ganhadorprompt {
+    text-align: center;
+}
+
+.restaurar {
+    background-color: rgb(202, 202, 202);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto auto;
+    position: absolute;
+    bottom: 15.3vh;
+    left: 0;
+    right: 0;
+}
+
+.jogo {
+    width: 30.1vw;
+    height: 61.5vh;
+    margin: auto auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.slot {
+    width: 7.5vw;
+    height: 15.3vh;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 35px;
+    line-height: 15.3vh;
+    font-weight: bold;
+}
+
+.slot#slot1 {
+    border-bottom: 2px solid black;
+}
+
+.slot#slot2 {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.slot#slot3 {
+    border-bottom: 2px solid black;
+
+}
+
+.slot#slot4 {
+    border-bottom: 2px solid black;
+}
+
+.slot#slot5 {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.slot#slot6 {
+    border-bottom: 2px solid black;
+}
+
+.slot#slot8 {
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
