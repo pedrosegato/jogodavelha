@@ -9,8 +9,19 @@
     <link rel="shortcut icon" href="./img/jdv.png"/>
 </head>
 <body>
-    <h1 class="titulo">Jogo da Velha (teste)</h1>
-    <p id="ganhadorprompt"></p>
+    <h1 class="titulo">Jogo da Velha (v0.0.1)</h1>
+    <h3 class="center" style="margin-bottom: -10px;">Placar</h3>
+    <div class="placar">
+        <div class="x">
+            <h3 style="margin-bottom: -15px;">X</h3>
+            <h4 id="X">0</h4>
+        </div>
+        <div class="o">
+            <h3 style="margin-bottom: -15px;">O</h3>
+            <h4 id="O">0</h4>
+        </div>
+    </div>
+    <p class="center" id="ganhadorprompt">Clique em um quadrado para jogar</p>
     <div class="jogo">
         <div class="slot" id="slot1"></div>
         <div class="slot" id="slot2"></div>
@@ -22,7 +33,24 @@
         <div class="slot" id="slot8"></div>
         <div class="slot" id="slot9"></div>
     </div>
-    <div class="restaurar" onclick="restaurarJogo()">Restaurar</div>
+    <div class="botoes">
+        <div class="botao" onclick="restaurarJogo()">Restaurar</div>
+        <div class="botao" onclick="abrirModal()">Zerar Placar</div>
+    </div>
+    <div class="modal" id="modalresetar">
+        <div class="modal-content" id="conteudomodal">
+            <div class="modal-title">
+                <h3>Zerar Placar</h3>
+            </div>
+            <div class="modal-body">
+                <p>Você tem certeza que deseja resetar o placar?</p>
+            </div>
+            <div class="modal-footer">
+                <div class="botao" style="background-color: green; color: white;" onclick="zerarPlacar()">Sim</div>
+                <div class="botao" style="background-color: red; color:white;" onclick="fecharModal()">Não</div>
+            </div>
+        </div>
+    </div>
     <script src="./game.js"></script>
 </body>
 </html>
