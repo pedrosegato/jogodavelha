@@ -11,4 +11,5 @@ Mensagem de vitória
 ![Vitória](https://imgur.com/gQfDRS5.png)
 
 Mensagem de derrota
+
 ![Derrota](https://imgur.com/NfqHSEE.png)
