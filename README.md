@@ -1,7 +1,7 @@
 # jogodavelha
 Jogo da Velha Singleplayer feita com JavaScript.
 
-# Testar
+# Jogar
 https://pedrosegato.github.io/jogodavelha/
 
 # Screenshots
