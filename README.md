@@ -4,8 +4,8 @@ Jogo da Velha Singleplayer feita com JavaScript.
 # Jogar
 https://pedrosegato.github.io/jogodavelha/
 
-# Screenshots
-Visão geral da aplicação (desatualizado)
+# Screenshots (desatualizadas)
+Visão geral da aplicação
 
 ![Jogo da Velha](https://imgur.com/6CRn1EI.png)
 
