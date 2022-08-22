@@ -1,5 +1,5 @@
 # jogodavelha
-Jogo da Velha Singleplayer feita com JavaScript.
+Jogo da Velha de único jogador feito com HTML e JavaScript.
 
 # Jogar
 https://pedrosegato.github.io/jogodavelha/
